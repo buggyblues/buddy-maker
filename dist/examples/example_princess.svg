@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="1024" height="1024">
+  <defs>
+    <radialGradient id="body_example_princess" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#eceff1" />
+      <stop offset="100%" stop-color="#c7d0d6" />
+    </radialGradient>
+    
+    
+    
+    
+
+    <radialGradient id="eyeYellow" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffffcc" /><stop offset="35%" stop-color="#f5d142" /><stop offset="100%" stop-color="#b38a00" />
+    </radialGradient>
+    <radialGradient id="eyeCyan" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ccffff" /><stop offset="35%" stop-color="#42e6f5" /><stop offset="100%" stop-color="#0092b3" />
+    </radialGradient>
+    <radialGradient id="eyeGreen" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ddffcc" /><stop offset="35%" stop-color="#6df542" /><stop offset="100%" stop-color="#1b8a00" />
+    </radialGradient>
+    <radialGradient id="eyeBlue" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#cce6ff" /><stop offset="35%" stop-color="#4293f5" /><stop offset="100%" stop-color="#0046b3" />
+    </radialGradient>
+    <radialGradient id="eyeCopper" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffeacc" /><stop offset="35%" stop-color="#f58a42" /><stop offset="100%" stop-color="#a34100" />
+    </radialGradient>
+    <radialGradient id="eyeHazel" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#efffcc" /><stop offset="35%" stop-color="#baf542" /><stop offset="100%" stop-color="#698500" />
+    </radialGradient>
+    
+    <clipPath id="headClip_example_princess"><ellipse cx="50" cy="62" rx="38" ry="26" /></clipPath>
+  </defs>
+  <g transform="translate(0, -2)">
+    
+    <!-- Ears (Tinted for point breeds) -->
+    <path d="M 22,47 Q 15,24 28,24 Q 34,24 40,40" fill="url(#body_example_princess)" stroke="#1a1a1c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 78,47 Q 85,24 72,24 Q 66,24 60,40" fill="url(#body_example_princess)" stroke="#1a1a1c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Head Base -->
+    <ellipse cx="50" cy="62" rx="38" ry="26" fill="url(#body_example_princess)" stroke="#1a1a1c" stroke-width="2.5" />
+    
+    <!-- Point Faces (Siamese, Ragdoll) -->
+    
+
+    <!-- Patterns (Masked to Head) -->
+    <g clip-path="url(#headClip_example_princess)">
+  <path d="M 20,38 C 30,28 38,45 30,58 C 22,68 12,50 20,38 Z" fill="#d35400" opacity="0.85"/>
+  <path d="M 80,42 C 68,32 60,55 70,65 C 80,75 90,55 80,42 Z" fill="#e67e22" opacity="0.85"/>
+  <path d="M 40,75 C 50,65 60,65 60,80 C 50,85 40,85 40,75 Z" fill="#d35400" opacity="0.85"/>
+  <circle cx="52" cy="40" r="8" fill="#e67e22" opacity="0.85"/>
+</g>
+    
+    <!-- Inner Head Outline -->
+    <ellipse cx="50" cy="61" rx="35" ry="23" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+    
+    <!-- Left Eye -->
+    <circle cx="32" cy="57" r="6.5" fill="url(#eyeCyan)" stroke="#1a1a1c" stroke-width="1.5" />
+    <circle cx="30" cy="54.5" r="2.2" fill="#ffffff" />
+    <circle cx="34" cy="60" r="1.2" fill="#ffffff" opacity="0.6" />
+    
+    <!-- Right Eye -->
+    <circle cx="68" cy="57" r="6.5" fill="url(#eyeCyan)" stroke="#1a1a1c" stroke-width="1.5" />
+    <circle cx="66" cy="54.5" r="2.2" fill="#ffffff" />
+    <circle cx="70" cy="60" r="1.2" fill="#ffffff" opacity="0.6" />
+    
+    <!-- Nose -->
+    <ellipse cx="50" cy="64" rx="4" ry="2.5" fill="#3a2a26" />
+    <ellipse cx="49.5" cy="63.2" rx="1.5" ry="0.8" fill="#8c7772" />
+    
+    <!-- Mouth -->
+    <path d="M 40,69 Q 50,80 60,69" fill="none" stroke="#1a1a1c" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- Whiskers -->
+    
+  <path d="M 25,62 Q 15,64 5,60" fill="none" stroke="#1a1a1c" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M 25,68 Q 15,69 5,65" fill="none" stroke="#1a1a1c" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M 75,62 Q 85,64 95,60" fill="none" stroke="#1a1a1c" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M 75,68 Q 85,69 95,65" fill="none" stroke="#1a1a1c" stroke-width="1.5" stroke-linecap="round" />
+
+
+    <!-- Accessories -->
+    <circle cx="20" cy="66" r="5" fill="#ff77aa" opacity="0.6" /><circle cx="80" cy="66" r="5" fill="#ff77aa" opacity="0.6" /><g fill="#fdfdfd" stroke="#e0e0e0" stroke-width="1"><circle cx="28" cy="80" r="3"/><circle cx="34" cy="83" r="3.5"/><circle cx="41" cy="86" r="4"/><circle cx="50" cy="87" r="4.5"/><circle cx="59" cy="86" r="4"/><circle cx="66" cy="83" r="3.5"/><circle cx="72" cy="80" r="3"/></g><path d="M 38,38 L 35,12 L 43,26 L 50,8 L 57,26 L 65,12 L 62,38 Z" fill="#f1c40f" stroke="#1a1a1c" stroke-width="2" stroke-linejoin="round" />
+  </g>
+</svg>

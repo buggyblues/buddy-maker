@@ -1,0 +1,18 @@
+{
+  "name": "buddy-maker-project",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A monorepo for creating buddies.",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "docs:update": "node scripts/update-readme.mjs"
+  },
+  "keywords": [
+    "buddy",
+    "maker",
+    "svg"
+  ],
+  "author": "buggyblues",
+  "license": "ISC"
+}

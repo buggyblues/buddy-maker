@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="1024" height="1024">
+  <defs>
+    <radialGradient id="body_5_Calico" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#f4f6f7" />
+      <stop offset="100%" stop-color="#dadddf" />
+    </radialGradient>
+    
+    
+    
+    
+
+    <radialGradient id="eyeYellow" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffffcc" /><stop offset="35%" stop-color="#f5d142" /><stop offset="100%" stop-color="#b38a00" />
+    </radialGradient>
+    <radialGradient id="eyeCyan" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ccffff" /><stop offset="35%" stop-color="#42e6f5" /><stop offset="100%" stop-color="#0092b3" />
+    </radialGradient>
+    <radialGradient id="eyeGreen" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ddffcc" /><stop offset="35%" stop-color="#6df542" /><stop offset="100%" stop-color="#1b8a00" />
+    </radialGradient>
+    <radialGradient id="eyeBlue" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#cce6ff" /><stop offset="35%" stop-color="#4293f5" /><stop offset="100%" stop-color="#0046b3" />
+    </radialGradient>
+    <radialGradient id="eyeCopper" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffeacc" /><stop offset="35%" stop-color="#f58a42" /><stop offset="100%" stop-color="#a34100" />
+    </radialGradient>
+    <radialGradient id="eyeHazel" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#efffcc" /><stop offset="35%" stop-color="#baf542" /><stop offset="100%" stop-color="#698500" />
+    </radialGradient>
+    
+    <clipPath id="headClip_5_Calico"><ellipse cx="50" cy="62" rx="38" ry="26" /></clipPath>
+  </defs>
+  <g transform="translate(0, -2)">
+    
+    <!-- Ears (Tinted for point breeds) -->
+    <path d="M 22,47 Q 15,24 28,24 Q 34,24 40,40" fill="url(#body_5_Calico)" stroke="#1a1a1c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 78,47 Q 85,24 72,24 Q 66,24 60,40" fill="url(#body_5_Calico)" stroke="#1a1a1c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Head Base -->
+    <ellipse cx="50" cy="62" rx="38" ry="26" fill="url(#body_5_Calico)" stroke="#1a1a1c" stroke-width="2.5" />
+    
+    <!-- Point Faces (Siamese, Ragdoll) -->
+    
+
+    <!-- Patterns (Masked to Head) -->
+    <g clip-path="url(#headClip_5_Calico)">
+  <path d="M 15,38 C 30,25 42,45 35,58 C 28,68 12,55 15,38 Z" fill="#e67e22" opacity="0.95"/>
+  <path d="M 85,35 C 70,20 55,45 65,60 C 75,70 90,50 85,35 Z" fill="#1a1a1c" opacity="0.95"/>
+  <path d="M 48,32 C 55,30 58,38 52,42 C 45,45 42,35 48,32 Z" fill="#1a1a1c" opacity="0.95"/>
+</g>
+    
+    <!-- Inner Head Outline -->
+    <ellipse cx="50" cy="61" rx="35" ry="23" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+    
+    <!-- Left Eye -->
+    <circle cx="32" cy="57" r="6.5" fill="url(#eyeCopper)" stroke="#1a1a1c" stroke-width="1.5" />
+    <circle cx="30" cy="54.5" r="2.2" fill="#ffffff" />
+    <circle cx="34" cy="60" r="1.2" fill="#ffffff" opacity="0.6" />
+    
+    <!-- Right Eye -->
+    <circle cx="68" cy="57" r="6.5" fill="url(#eyeCopper)" stroke="#1a1a1c" stroke-width="1.5" />
+    <circle cx="66" cy="54.5" r="2.2" fill="#ffffff" />
+    <circle cx="70" cy="60" r="1.2" fill="#ffffff" opacity="0.6" />
+    
+    <!-- Nose -->
+    <ellipse cx="50" cy="64" rx="4" ry="2.5" fill="#3a2a26" />
+    <ellipse cx="49.5" cy="63.2" rx="1.5" ry="0.8" fill="#8c7772" />
+    
+    <!-- Mouth -->
+    
+    <path d="M 40,69 Q 45,74.5 50,69" fill="none" stroke="#1a1a1c" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 50,69 Q 55,74.5 60,69" fill="none" stroke="#1a1a1c" stroke-width="2.5" stroke-linecap="round" />
+  
+
+    <!-- Whiskers -->
+    
+  <path d="M 25,62 Q 15,64 5,60" fill="none" stroke="#1a1a1c" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M 25,68 Q 15,69 5,65" fill="none" stroke="#1a1a1c" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M 75,62 Q 85,64 95,60" fill="none" stroke="#1a1a1c" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M 75,68 Q 85,69 95,65" fill="none" stroke="#1a1a1c" stroke-width="1.5" stroke-linecap="round" />
+
+
+    <!-- Accessories -->
+    
+  </g>
+</svg>
